@@ -1,3 +1,6 @@
+# Name: Venkatesh Ganesan
+# Roll Number: IITP_AIMLTN_2602378
+# Assignment: Python Loops & Automation - Weekly Temperature Analysis
 print("===== Task 1: Find Maximum and Minimum =====")
 temperatures = [28, 32, 35, 29, 31, 27, 30]
 
