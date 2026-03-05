@@ -13,7 +13,6 @@ def classify_grades(averages):
     grade_A = 90
     grade_B = 75
     grade_C = 60
-
     classified = {}
     for name, avg in averages.items():
         if avg >= grade_A:
@@ -26,7 +25,6 @@ def classify_grades(averages):
             grade = "F"
         classified[name] = (avg, grade)
     return classified
-
 
 # Task 3 – Generate the Report
 def generate_report(classified, passing_avg=70):
@@ -54,7 +52,6 @@ if __name__ == "__main__":
         "Bob": [60, 65, 62.5],
         "Clara": [95, 97, 96.75]
     }
-
     averages = process_scores(students)
     classified = classify_grades(averages)
     generate_report(classified)
